@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!doctype html>
+<html ng-app>
+    <head>
+   
+        <script src="~/Scripts/angular.js"></script>
+    </head>
+
+    <body ng-controller="PhoneListCtrl">
+        <br><br><br>
+        Search:<input ng-model="query"/>
+        Sort by:
+        <select ng-model="orderProp">
+            <option value="name">Alphabetical</option>
+            <option value="age">Newest</option>
+        </select>
+        orderProp:{{orderProp}}
+        <ul>
+            <li ng-repeat="phone in phones | filter:query|orderBy:orderProp">
+                {{phone.name}}
+                <p>{{phone.snippet}}</p>
+                <p>{{phone.age}}</p>
+            </li>
+        </ul>
+    </body>
+</html>
+<script type="text/javascript">
+    function PhoneListCtrl($scope) {
+        $scope.phones = [
+            {
+                "name": "nexus s",
+                "snippet": "fast just got faster with nexus s",
+                "age":"0"
+            },
+            {
+                "name": "Motorola XOOM™ with Wi-Fi",
+                "snippet": "The Next, Next Generation tablet.",
+                "age": "1"
+            },
+            {
+                "name": "MOTOROLA XOOM™",
+                "snippet": "The Next, Next Generation tablet.",
+                "age": "2"
+            }
+        ];
+
+        //$scope.orderProp = 'age';
+    }    
+   
+
+</script>
