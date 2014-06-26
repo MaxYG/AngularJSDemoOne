@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSTestOne", "AngularJSTestOne\AngularJSTestOne.csproj", "{B369C877-D824-4B43-9F61-869B3D2A8AA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.Web", "AngularJSTestOne\AngularJS.Web.csproj", "{B369C877-D824-4B43-9F61-869B3D2A8AA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.Data", "AngularJS.Data\AngularJS.Data.csproj", "{A343BE66-FEEF-4831-A27B-17B9281648B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjular.Service", "Anjular.Service\Anjular.Service.csproj", "{4B295F16-C9EC-4BE5-8B43-EF66ECBA2433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnjularJS.Repository", "AnjularJS.Repository\AnjularJS.Repository.csproj", "{9C4B983F-6302-4076-881C-C699DA9EF04B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnjularJS.ViewModel", "AnjularJS.ViewModel\AnjularJS.ViewModel.csproj", "{4A2CC520-5932-4A8F-81EB-D77DCDB01152}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{B369C877-D824-4B43-9F61-869B3D2A8AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B369C877-D824-4B43-9F61-869B3D2A8AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B369C877-D824-4B43-9F61-869B3D2A8AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A343BE66-FEEF-4831-A27B-17B9281648B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A343BE66-FEEF-4831-A27B-17B9281648B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A343BE66-FEEF-4831-A27B-17B9281648B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A343BE66-FEEF-4831-A27B-17B9281648B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B295F16-C9EC-4BE5-8B43-EF66ECBA2433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B295F16-C9EC-4BE5-8B43-EF66ECBA2433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B295F16-C9EC-4BE5-8B43-EF66ECBA2433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B295F16-C9EC-4BE5-8B43-EF66ECBA2433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4B983F-6302-4076-881C-C699DA9EF04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4B983F-6302-4076-881C-C699DA9EF04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4B983F-6302-4076-881C-C699DA9EF04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4B983F-6302-4076-881C-C699DA9EF04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2CC520-5932-4A8F-81EB-D77DCDB01152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2CC520-5932-4A8F-81EB-D77DCDB01152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2CC520-5932-4A8F-81EB-D77DCDB01152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2CC520-5932-4A8F-81EB-D77DCDB01152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

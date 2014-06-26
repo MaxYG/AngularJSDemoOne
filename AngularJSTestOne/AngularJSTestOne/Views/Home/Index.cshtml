@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
+@model AnjularJS.ViewModel.IndexViewModel
 <!doctype html>
 <html ng-app>
     <head>
@@ -9,45 +9,103 @@
         <script src="~/Scripts/angular.js"></script>
     </head>
 
-    <body ng-controller="PhoneListCtrl">
-        <br><br><br>
-        Search:<input ng-model="query"/>
-        Sort by:
-        <select ng-model="orderProp">
-            <option value="name">Alphabetical</option>
-            <option value="age">Newest</option>
-        </select>
-        orderProp:{{orderProp}}
-        <ul>
-            <li ng-repeat="phone in phones | filter:query|orderBy:orderProp">
-                {{phone.name}}
-                <p>{{phone.snippet}}</p>
-                <p>{{phone.age}}</p>
-            </li>
-        </ul>
-    </body>
+<body ng-controller="EmployeeListCtrl">
+    <br><br><br>
+    @*Search:<input ng-model="query" />
+    Sort by:
+    <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+    </select>*@
+    @*orderProp:{{orderProp}}*@
+    @*<div>
+        <table class="table table-striped table-bordered table-condensed">
+            <tr id="tr_0">
+                <th>Number</th>
+                <th>Name</th>
+                <th>BirthDay</th>
+                <th>School</th>
+                <th>Address</th>
+                <th>WorkExperience</th>
+                <th>operate</th>
+            </tr>
+
+            
+            <tr id="tr_0" ng-repeat="employ in employs">
+                <th>1</th>{{1+1}}
+                <th>{{employ.Name}}</th>
+                <th>{{employ.BirthDay}}</th>
+                <th>{{employ.School}}</th>
+                <th>{{employ.Address}}</th>
+                <th>{{employ.WorkExperience}}</th>
+                <th>operate</th>
+            </tr>
+           
+        </table>
+    </div>*@
+    <div>
+        <table class="table table-striped table-bordered table-condensed custom_div_margin_top">
+            <tr id="tr_0">
+                <th>JobNumber</th>
+                <th>Name</th>
+                <th>BirthDay</th>
+                <th>School</th>
+                <th>Address</th>
+                <th>WorkExperience</th>
+                <th>operate</th>
+                <th class="colhidden">SelfAssessment</th>
+                <th class="colhidden">Picture</th>
+                <th class="colhidden">Attachment</th>
+            </tr>
+
+            @foreach (var item in Model.Employees)
+            {
+                <tr data-id="@item.Id">
+                    <td data-member="Id">@item.Id</td>
+                    <td data-member="Name">@item.Name</td>
+                    <td data-member="BirthDay">
+                        @if (@item.BirthDay.HasValue)
+                        {
+                            @item.BirthDay.Value.ToString("yyyy-MM-dd")
+                        }
+                    </td>
+                    <td data-member="School">@item.School</td>
+                    <td data-member="Address">@item.Address</td>
+                    <td data-member="WorkExperience">@item.WorkExperience</td>
+                    <td>
+                        @if (item.Lock)
+                        {
+
+                            <a class="btn action-button btn-default" href="#myViewModal" data-toggle="modal" data-id="@item.Id" id="viewStaffInfo">View</a>
+                            <a class="btn action-button btn-default" href="#" data-toggle="modal" data-id="@item.Id" id="unLockStaff">UnLock</a>
+
+
+                        }
+                        else
+                        {
+                            <a class="btn action-button btn-default" href="javascript:void(0)" data-toggle="modal" data-id="@item.Id" id="EditStaff">Edit</a>
+                            <a class="btn action-button btn-default " href="#" data-toggle="modal" data-id="@item.Id" id="lockStaff">Lock</a>
+                        }
+                    </td>
+                    <td data-member="SelfAssessment" class="colhidden">@item.SelfAssessment</td>
+                    <td data-member="Picture" class="colhidden">@item.Picture</td>
+                    <td data-member="Attachment" class="colhidden">@item.Attachment</td>
+                    <td data-member="Lock" class="colhidden">@item.Lock</td>
+                </tr>
+            }
+
+        </table>
+    </div>
+
+
+
+</body>
 </html>
 <script type="text/javascript">
-    function PhoneListCtrl($scope) {
-        $scope.phones = [
-            {
-                "name": "nexus s",
-                "snippet": "fast just got faster with nexus s",
-                "age":"0"
-            },
-            {
-                "name": "Motorola XOOM™ with Wi-Fi",
-                "snippet": "The Next, Next Generation tablet.",
-                "age": "1"
-            },
-            {
-                "name": "MOTOROLA XOOM™",
-                "snippet": "The Next, Next Generation tablet.",
-                "age": "2"
-            }
-        ];
-
-        //$scope.orderProp = 'age';
+    function EmployeeListCtrl($scope) {
+        $scope.get("Home/index").success(function(data) {
+            $scope.employs = data;
+        });
     }    
    
 
