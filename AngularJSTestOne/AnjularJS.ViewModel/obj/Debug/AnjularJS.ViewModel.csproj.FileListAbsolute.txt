@@ -1,0 +1,5 @@
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.ViewModel\bin\Debug\AnjularJS.ViewModel.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.ViewModel\bin\Debug\AnjularJS.ViewModel.pdb
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.ViewModel\obj\Debug\AnjularJS.ViewModel.csprojResolveAssemblyReference.cache
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.ViewModel\obj\Debug\AnjularJS.ViewModel.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.ViewModel\obj\Debug\AnjularJS.ViewModel.pdb

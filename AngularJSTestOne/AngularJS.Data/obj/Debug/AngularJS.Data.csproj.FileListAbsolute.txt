@@ -1,0 +1,7 @@
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\bin\Debug\AngularJS.Data.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\bin\Debug\AngularJS.Data.pdb
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\bin\Debug\EntityFramework.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\bin\Debug\EntityFramework.xml
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\obj\Debug\AngularJS.Data.csprojResolveAssemblyReference.cache
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\obj\Debug\AngularJS.Data.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\obj\Debug\AngularJS.Data.pdb

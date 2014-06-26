@@ -1,0 +1,9 @@
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\AnjularJS.Repository.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\AnjularJS.Repository.pdb
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\AngularJS.Data.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\EntityFramework.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\AngularJS.Data.pdb
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\EntityFramework.xml
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\obj\Debug\AnjularJS.Repository.csprojResolveAssemblyReference.cache
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\obj\Debug\AnjularJS.Repository.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\obj\Debug\AnjularJS.Repository.pdb

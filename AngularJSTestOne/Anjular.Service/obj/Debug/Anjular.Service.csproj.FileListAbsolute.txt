@@ -1,0 +1,13 @@
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\Anjular.Service.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\Anjular.Service.pdb
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\obj\Debug\Anjular.Service.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\obj\Debug\Anjular.Service.pdb
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\obj\Debug\Anjular.Service.csprojResolveAssemblyReference.cache
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AngularJS.Data.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AnjularJS.Repository.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AnjularJS.ViewModel.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\EntityFramework.dll
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AngularJS.Data.pdb
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AnjularJS.Repository.pdb
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AnjularJS.ViewModel.pdb
+D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\EntityFramework.xml
