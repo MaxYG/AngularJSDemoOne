@@ -19,13 +19,14 @@ namespace AngularJSTestOne.Controllers
 
         public ActionResult Index()
         {
-            var indexModel = new IndexViewModel
-            {
-                Employees = _employeeService.QueryAllStaffs()
-            };
-            return View("Index", indexModel);
-
+            return View();
         }
 
+        public JsonResult Get()
+        {
+            var employees = _employeeService.QueryAllStaffs();
+           
+            return Json(employees.ToList(), JsonRequestBehavior.AllowGet);
+        }
     }
 }
