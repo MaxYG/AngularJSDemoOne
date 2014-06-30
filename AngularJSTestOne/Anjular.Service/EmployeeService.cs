@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using AngularJS.Data;
 using AnjularJS.Repository;
 using AnjularJS.ViewModel;
 
@@ -33,21 +34,23 @@ namespace Anjular.Service
             }).ToList();
         }
 
-//        public void Add(IndexViewModel.Staff vmStaff)
-//        {
-//            var staff = new Staff();
-//            staff.Id = vmStaff.Id;
-//            staff.Name = vmStaff.Name;
-//            staff.BirthDay = vmStaff.BirthDay;
-//            staff.School = vmStaff.School;
-//            staff.Address = vmStaff.Address;
-//            staff.WorkExperience = vmStaff.WorkExperience;
-//            staff.SelfAssessment = vmStaff.SelfAssessment;
-//            staff.Lock = false;
-//            staff.Picture = vmStaff.Picture;
-//            staff.Attachment = vmStaff.Attachment;
-//            _staffRepository.Add(staff);
-//        }
+        public void Add(IndexViewModel.Employee employee)
+        {
+            var employees = new Employee
+            {
+                Id = employee.Id,
+                Name = employee.Name,
+                BirthDay = employee.BirthDay,
+                School = employee.School,
+                Address = employee.Address,
+                WorkExperience = employee.WorkExperience,
+                SelfAssessment = employee.SelfAssessment,
+                Lock = false,
+                Picture = employee.Picture,
+                Attachment = employee.Attachment
+            };
+            _employeeRepository.Add(employees);
+        }
 //
 //        public IndexViewModel.Staff FindInfo(int id)
 //        {

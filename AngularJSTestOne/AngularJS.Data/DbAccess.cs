@@ -16,11 +16,11 @@ namespace AngularJS.Data
             return _angularDb.Employees;
         }
 
-        //public void Add(Employee staff)
-        //{
-        //    _angularDb.Employees.Add(staff);
-        //    _angularDb.SaveChanges();
-        //}
+        public void Add(Employee staff)
+        {
+            _angularDb.Employees.Add(staff);
+            _angularDb.SaveChanges();
+        }
 
         //public Employee FindInfo(int id)
         //{

@@ -6,7 +6,7 @@ namespace Anjular.Service
     public interface IEmployeeService
     {
         List<IndexViewModel.Employee> QueryAllStaffs();
-        //void Add(IndexViewModel.Staff vmStaff);
+        void Add(IndexViewModel.Employee employee);
         //IndexViewModel.Staff FindInfo(int id);
         //void Edit(IndexViewModel.Staff staff);
         //void Edit(StaffEditModel staff, HttpPostedFileBase headPic, HttpPostedFileBase headAtt);

@@ -18,10 +18,10 @@ namespace AnjularJS.Repository
             return _dbAccess.QueryAllEmployees();
         }
 
-        //public void Add(Employee staff)
-        //{
-        //    _dbAccess.Add(staff);
-        //}
+        public void Add(Employee employee)
+        {
+            _dbAccess.Add(employee);
+        }
 
         //public Employee FindInfo(int Id)
         //{
