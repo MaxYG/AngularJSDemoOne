@@ -5,3 +5,10 @@ D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\bin\Debug\Ent
 D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\obj\Debug\AngularJS.Data.csprojResolveAssemblyReference.cache
 D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\obj\Debug\AngularJS.Data.dll
 D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\obj\Debug\AngularJS.Data.pdb
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\bin\Debug\AngularJS.Data.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\bin\Debug\AngularJS.Data.pdb
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\bin\Debug\EntityFramework.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\bin\Debug\EntityFramework.xml
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\obj\Debug\AngularJS.Data.csprojResolveAssemblyReference.cache
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\obj\Debug\AngularJS.Data.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AngularJS.Data\obj\Debug\AngularJS.Data.pdb

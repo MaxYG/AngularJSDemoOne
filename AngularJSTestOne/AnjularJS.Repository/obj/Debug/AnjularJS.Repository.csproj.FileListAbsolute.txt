@@ -7,3 +7,12 @@ D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Deb
 D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\obj\Debug\AnjularJS.Repository.csprojResolveAssemblyReference.cache
 D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\obj\Debug\AnjularJS.Repository.dll
 D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\obj\Debug\AnjularJS.Repository.pdb
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\AnjularJS.Repository.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\AnjularJS.Repository.pdb
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\AngularJS.Data.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\EntityFramework.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\AngularJS.Data.pdb
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\bin\Debug\EntityFramework.xml
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\obj\Debug\AnjularJS.Repository.csprojResolveAssemblyReference.cache
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\obj\Debug\AnjularJS.Repository.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\AnjularJS.Repository\obj\Debug\AnjularJS.Repository.pdb

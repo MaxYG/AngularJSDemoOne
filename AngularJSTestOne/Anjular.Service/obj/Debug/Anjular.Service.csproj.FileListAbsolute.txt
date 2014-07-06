@@ -11,3 +11,16 @@ D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\An
 D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AnjularJS.Repository.pdb
 D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AnjularJS.ViewModel.pdb
 D:\test\AngularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\EntityFramework.xml
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\obj\Debug\Anjular.Service.csprojResolveAssemblyReference.cache
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\obj\Debug\Anjular.Service.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\Anjular.Service.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\Anjular.Service.pdb
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AngularJS.Data.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AnjularJS.Repository.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AnjularJS.ViewModel.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\EntityFramework.dll
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AngularJS.Data.pdb
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AnjularJS.Repository.pdb
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\AnjularJS.ViewModel.pdb
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\bin\Debug\EntityFramework.xml
+D:\work\AnjularJS\AngularJSDemoOne\AngularJSTestOne\Anjular.Service\obj\Debug\Anjular.Service.pdb

@@ -23,7 +23,7 @@ namespace Anjular.Service
             {
                 Id = t.Id,
                 Name = t.Name,
-                BirthDay = t.BirthDay.ToString("yyyy-MM-dd"),
+                BirthDay =t.BirthDay,
                 School = t.School,
                 Address = t.Address,
                 WorkExperience = t.WorkExperience,
